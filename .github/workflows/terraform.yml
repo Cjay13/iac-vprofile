@@ -25,7 +25,7 @@ jobs:
             run:
                 shell: bash
                 working-directory: ./terraform
-        steps:
+    steps:
             - name: Checkout source code
               uses: action/checkout@v4
             
